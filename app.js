@@ -9,10 +9,12 @@ const PORT = process.env.PORT;
 
 app.use(morgan('combined'));
 app.use(express.static(path.join(__dirname,"/public/")));
-app.use(express.static(path.join(__filename,"/public/img/")));
+
+app.set('views','./src/views');
+app.set('view engine', 'ejs');
 
 app.get("/", (req, res) => {
-  res.send("dasdsadas");
+  res.render('index',{username:'jame',custommer:['kitt','jame','joke']});
 });
 
 app.listen(PORT, () => {
