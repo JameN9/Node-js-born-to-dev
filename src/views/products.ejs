@@ -76,7 +76,7 @@
                     <a class="ud-menu-scroll" href="d">Pricing</a>
                   </li>
                   <li class="nav-item">
-                    <a class="ud-menu-scroll" href="products">Products</a>
+                    <a class="ud-menu-scroll" href="/products">Products</a>
                   </li>
                   <li class="nav-item">
                     <a class="ud-menu-scroll" href="#contact">Contact</a>
@@ -159,7 +159,9 @@
             <i class="lni lni-gift"></i>
           </div>
           <div class="ud-feature-content">
-            <h3 class="ud-feature-title"><%=product.productTitle %></h3>
+            <h3 class="ud-feature-title">
+              <a href="/products/<%=product.id%>"><%=product.productTitle %></a>
+            </h3>
             <p class="ud-feature-desc">
               <%=product.productDescription%>
             </p>

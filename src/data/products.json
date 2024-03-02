@@ -1,0 +1,26 @@
+[
+    {
+        "id": "0",
+        "productTitle": "น้ำยาล้างห้องน้ำ",
+        "productDescription": "สูตรทีเด็ด",
+        "productPrice": 50
+    },
+    {
+        "id": "1",
+        "productTitle": "น้ำยาล้างห้องน้ำ2",
+        "productDescription": "สูตรทีเด็ด",
+        "productPrice": 58045356546454654
+    },
+    {
+        "id": "2",
+        "productTitle": "น้ำยาล้างห้องน้ำ3",
+        "productDescription": "สูตรทีเด็ด",
+        "productPrice": 5760
+    },
+    {
+        "id": "3",
+        "productTitle": "น้ำยาล้างห้องน้ำ4",
+        "productDescription": "สูตรทีเด็ด",
+        "productPrice": 57660
+    }
+]
